@@ -7,7 +7,7 @@ if(!isset($conn)){
  $port = "3306"; // MySQL Port : Default : 3306
  $user = "root"; // Username Here
  $pass = "root"; //Password Here
- $db   = "chat_room"; // Database Name
+ $db   = "Chat"; // Database Name
  $conn  = new PDO('mysql:dbname='.$db.';host='.$host.';port='.$port,$user,$pass);
  
  /*Change The Credentials to connect to database.*/

@@ -12,7 +12,6 @@ if (!isset($_SESSION['user'])) {
     <link href="css/chat.css" rel="stylesheet"/>
     <link href="css/fileinput.css" media="all" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet"/>
-    <script src="plugin/bootstrap.min.js"></script>
 
     <title>PHP Group Chat With jQuery & AJAX</title>
 </head>
@@ -84,7 +83,10 @@ if (!isset($_SESSION['user'])) {
 <script src="plugin/jquery-3.2.1.min.js"></script>
 <script src="plugin/chat.js"></script>
 <script src="plugin/fileinput.js" type="text/javascript"></script>
+<script src="plugin/bootstrap.min.js"></script>
+
 <script>
+    
     $("#myDropdown").hide();
     $(".show-status").on("mousedown", function () {
         if ($("#myDropdown").css("display") == 'none') {
